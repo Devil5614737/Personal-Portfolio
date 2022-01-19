@@ -121,7 +121,7 @@ export default function Home() {
         </section>
         <section className="contacts-container">
             <div className="contacts-title-container">
-                <p>Contacts</p>
+                <p>Contact</p>
                 <Bar className='contacts-bar'></Bar>
             </div>
             <div className="input-containers">
