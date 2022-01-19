@@ -1,0 +1,65 @@
+@import './variables';
+
+.nav-container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em .3em;
+   
+    .logo{
+        color: $logo-color;
+        font-weight: bold;
+        font-size: 2.3rem;
+        @media screen and (max-width:700px) {
+           font-size: 2rem;
+        }
+        @media screen and (max-width:500px) {
+           font-size: 1.8rem;
+        }
+    }
+    .links{
+        ul{
+            display:flex;
+            align-items: center;
+            li{
+                // margin-right: 32px;
+                margin-left: 52px;
+                @media screen and (max-width:700px) {
+                    margin-left: 32px;
+                }
+                @media screen and (max-width:500px) {
+                    margin-left: 31px;
+                    
+
+                }
+                a{
+                    color: white;
+                    font-weight: 500;
+                    font-size: 1.8rem;
+                    @media screen and (max-width:700px) {
+                        font-size: 1.5rem;
+                    }
+                    @media screen and (max-width:500px) {
+                        font-size: 1.3rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.btn{
+    background: $dark-blue;
+    color:white;
+    border: none;
+    font-size: 2rem;
+    padding: .4em .7em;
+    cursor: pointer;
+    @media screen and (max-width:700px) {
+        font-size: 1.8rem;
+    }
+    @media screen and (max-width:500px) {
+       font-size: 1.6rem;
+
+    }
+}
